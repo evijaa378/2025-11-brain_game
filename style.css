@@ -2,33 +2,43 @@
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-    background: rgb(180, 178, 178);
+    background: rgb(232, 232, 233);
 }
 
-h1 {
+h1{
     text-align: center;
-    background: rgb(152, 198, 241);
-    color: rgb(2, 22, 109);
+    background: rgb(151, 190, 241);
+    color: rgb(26, 50, 187);
 }
 
 ul {
     text-align: center;
     padding: 0px;
+
 }
 
 li {
     display: inline-block;
 }
 
-.speles_lauk {
-    background: rgb(0, 0, 0);
-    width: 520px;
-    justify-content: center;
-    margin: auto;
-    padding: 10px;
-    display: flex;
+.spēles_lauk {
+     background: rgb(0, 0, 0);
+     width: 520px;
+     justify-content: center;
+     margin: auto;
+     padding: 10px;
+     display: flex;
+     flex-wrap: wrap;
 }
 
-.bloks {
-    background: red
+.Bloks{
+background: rgb(184, 17, 17);
+width: 100px;
+height: 100px;
+align-items: center;
+justify-content: center;
+margin: 5px;
+font-size: 45px;
+display: flex;
+border-radius: 5px;
 }
